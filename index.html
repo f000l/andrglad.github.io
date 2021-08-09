@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>andrglad.github.io</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>
-            var settings = {
-  "url": "https://api.openweathermap.org/data/2.5/weather?id=498817&units=metric&appid=4efa5841d7d12dbf4c02bd0e9ae19742",
-  "method": "GET",
-  "timeout": 0,
-};
+    <script> var settings = {
+            "url": "https://api.openweathermap.org/data/2.5/weather?id=498817&units=metric&appid=4efa5841d7d12dbf4c02bd0e9ae19742",
+            "method": "GET",
+            "timeout": 0, };
 
 $.ajax(settings).done(function (response) {
   console.log(response);
